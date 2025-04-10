@@ -34,7 +34,7 @@ setuptools.setup(
         "torch",
         "torchvision",
         "tensorboard",
-        "torchdyn==1.0.1",
+        "torchdyn",
         "protobuf",
         "wand",
         "transformers @ git+https://github.com/huggingface/transformers.git",
@@ -48,5 +48,5 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Intended Audience :: Science/Research",
     ],
-    python_requires=">=3.6,<3.9",
+    python_requires=">=3.6,<3.12",
 )
